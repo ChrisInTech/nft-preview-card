@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.img1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.icon-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 275px;
+    left: 825px;
+    background-color: rgb(0%, 100%, 97%, 50%);
+    border-radius: 15px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.icon-view:hover {
+    opacity: 1;
+}
+
+.cardBG {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 800px;
+}
+
+.container1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.container2 {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.eth-icon span {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.time-icon span {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+hr {
+    color: hsl(215, 51%, 70%);
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.creator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.creator img {
+    height: 50px;
+    width: 50px;
+}
+
+.creator>p {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    padding-left: 10px;
+}
+
+.creator>p>span {
+    color: hsl(0, 0%, 100%);
+}
+
+.creator>p>span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.author {
+    margin-top: 100px;
+    color: hsl(215, 51%, 70%);
+}
