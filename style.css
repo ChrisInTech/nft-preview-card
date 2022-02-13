@@ -4,8 +4,21 @@
     margin: 0;
 }
 
+html,
 body {
+    height: 100%;
+    width: 100%;
     background-color: hsl(217, 54%, 11%);
+}
+
+.cardBG {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
 }
 
 .img1 {
@@ -23,8 +36,8 @@ body {
     height: 300px;
     width: 300px;
     position: absolute;
-    top: 275px;
-    left: 825px;
+    top: 5.5rem;
+    left: 65rem;
     background-color: rgb(0%, 100%, 97%, 50%);
     border-radius: 15px;
     opacity: 0;
@@ -33,17 +46,6 @@ body {
 
 .icon-view:hover {
     opacity: 1;
-}
-
-.cardBG {
-    background-color: hsl(216, 50%, 16%);
-    width: 350px;
-    height: 600px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 250px;
-    margin-left: 800px;
 }
 
 .container1 {
@@ -110,6 +112,8 @@ hr {
 .creator img {
     height: 50px;
     width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 
 .creator>p {
